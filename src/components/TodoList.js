@@ -12,7 +12,7 @@ export default class TodoList extends React.Component {
             <div>
             {this.props.data.map((obj)=>{
                 return (
-                    <Todo clickTask={this.props.clickTask} obj={obj}/>
+                    <Todo  clickTask={this.props.clickTask} obj={obj}/>
                 )
             })}
             {/* <Todo data={this.props.data}/> */}

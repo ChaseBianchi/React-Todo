@@ -29,7 +29,9 @@ class App extends React.Component {
       })
     })
   }
-
+  clearTasks = ()=>{
+    
+  }
   render() {
     return (
       <div>
