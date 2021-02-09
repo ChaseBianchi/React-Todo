@@ -8,15 +8,12 @@ export default class TodoList extends React.Component {
     render(){
         return(
             <div>
-            Click on a task to mark it completed.
-            <div>
             {this.props.data.map((obj)=>{
                 return (
                     <Todo  clickTask={this.props.clickTask} obj={obj}/>
                 )
             })}
             {/* <Todo data={this.props.data}/> */}
-            </div>
             </div>
         )
     }
